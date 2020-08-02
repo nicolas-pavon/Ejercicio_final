@@ -1,0 +1,30 @@
+.jumbotron {
+  background-color: #fbff19e7;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.btn {
+  background-color: #0000ff;
+  color: #ffffff; }
+
+.btn-reserva {
+  width: 100%;
+  border-radius: 0px; }
+
+.card-hotel {
+  flex: 1 200px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+.tab-content {
+  padding-top: 10px; }
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #fbff19e7;
+  margin-top: 10px;
+  margin-bottom: 0px; }

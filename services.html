@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- build:css dist/index.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+        <!-- endbuild -->
+        <title>Nicolás Pavón Gómez</title>
+    </head>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Nicolás Pavón Gomez</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="services.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <body>
+        <div class="jumbotron ">
+            <h1>Servicios de Monitoría</h1>
+        </div>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Precios</li>
+                </ol>
+            </nav>
+
+            <ul class="nav nav-pills" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" id="precios-tab" data-toggle="pill" href="#precios" role="tab" aria-controls="precios" aria-selected="true">
+                        Precios
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">
+                        Tarjetas
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="precios" role="tabpanel" aria-labelledby="precios-tab">
+                    <div class="table-responsive">    
+                        <table class="table table-stripped">
+                            <thead class="thead-dark"><th><p>Precios por hora</p></th></thead>
+                            <thead class="thead-dark">
+                                <th>Personas</th>
+                                <th>Matemática</th>
+                                <th>Machine Learning</th>
+                                <th>Inteligencia Artificial</th>
+                                <th>Análitica de Datos</th>
+                                <th>Matemática (Avanzado)</th>
+                                <th>Machine Learning (Avanzado)</th>
+                                <th>Inteligencia Artificial (Avanzado)</th>
+                                <th>Análitica de Datos (Avanzado)</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="oi oi-person"></span></span></td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                    <td>$350.000</td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                    <td>$350.000</td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="oi oi-people"></span></td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                    <td>$350.000</td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                    <td>$350.000</td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="oi oi-plus"></span><span class="oi oi-people"></span></td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                    <td>$350.000</td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                    <td>$350.000</td>
+                                    <td>$250.000</td>
+                                    <td>$280.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade show active" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+                                        Tarjeta Básica
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseBasica" class="collapse" aria-labelledby="headionOne" data-parent="#accordionTarjetas">
+                                <div class="card-body">Podes reservar en 3 cuotas sin interés</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingtwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="false" aria-controls="collapseVIP">
+                                    Tarjeta VIP
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseVIP" class="collapse" aria-labelledby="headionTwo" data-parent="#accordionTarjetas">
+                            <div class="card-body">Podes reservar en 6 cuotas sin interés</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column">
+                    <a href="https://www.instagram.com/nicolas_pavon05/">instagram</a>
+                    <a href="https://github.com/nicolas-pavon">github</a>
+                </div>
+                <div class="col-sm-4 d-flex flex-column">
+                    <address>
+                        <p class="color"><span class="oi oi-location footer-address-icon"></span>Palmira, Valle del cauca</p>
+                        <p class="color"><span class="oi oi-phone footer-address-icon"></span>+57 316-578-2942</p>
+                        <p class="color"><span class="oi oi-inbox footer-address-icon"></span>nicopavongomez@gmail</p>
+                    </address>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-end">
+                    <a href="https://www.instagram.com/nicolas_pavon05/">Nostros</a>
+                    <a href="https://github.com/nicolas-pavon">Precios</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- build:js dist/main.js -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

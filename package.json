@@ -1,0 +1,41 @@
+{
+  "name": "ejercicio_final",
+  "version": "1.0.0",
+  "description": "Entrega final",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-pavon/Ejercicio_final.git"
+  },
+  "author": "Nicolas Pavon Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolas-pavon/Ejercicio_final/issues"
+  },
+  "homepage": "https://github.com/nicolas-pavon/Ejercicio_final#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.30"
+  }
+}
